@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://taskflow-hawa-sow.onrender.com/api";
 
 export default function Profile() {
   const [profile, setProfile] = useState({

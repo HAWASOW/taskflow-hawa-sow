@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api/projects";
+const API = "https://taskflow-hawa-sow.onrender.com/api/projects";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
